@@ -41,7 +41,7 @@ try {
 
             newDoc.resizeImage(UnitValue(1080, "px"), UnitValue(1080, "px"), 72, ResampleMethod.AUTOMATIC);
             var jpg1080 = new File(saveFolder + "/" + filename + "_social-media_1080x1080.jpg");
-            newDoc.saveAs(jpg1080, jpgSaveOptionsFull, true); // Use full quality here
+            newDoc.saveAs(jpg1080, jpgSaveOptionsFull, true);
 
             newDoc.close(SaveOptions.DONOTSAVECHANGES);
             alert("Files saved successfully!");
